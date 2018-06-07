@@ -1,0 +1,16 @@
+﻿SmtpServer:=smtp.exmail.qq.com
+EnableSsl:=true
+SmtpServerPort:=465
+SmtpUser:=errorlog@etcomm.cn
+SmtpPass:=auto-sender
+SmtpTimeout:=300000
+
+MailBody:={today}
+SQlQuery:=CALL GenJournalsTable()
+
+ConfigIndex:=0
+
+ConnStr0:=Server=localhost;Port=3306;User=root;Password=123456;database=ecgcare;Charset=utf8;
+FromName0:=zhangxx
+To0:=zhangxx@etcomm.cn
+Cc0:=zhangpp@etcomm.cn
